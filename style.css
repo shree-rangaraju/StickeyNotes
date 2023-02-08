@@ -105,9 +105,9 @@ body {
   width: 400px;
   border-radius: 8px;
   overflow-y: hidden;
-  background-image: url("https://img.icons8.com/wired/100/ffffff/edit.png");
+  background-image: url("https://img.icons8.com/ios/100/ffffff/checked--v1.png");
   background-repeat: no-repeat;
-  background-size: 200px;
+  background-size: 195px;
   background-position-x: center;
   background-position-y: 110px;
 }
@@ -137,7 +137,7 @@ body {
   width: 100%;
   padding: 20px;
   background-color: var(--note-background);
-  background-image: url("https://img.icons8.com/wired/100/ffffff/edit.png");
+  background-image: url("https://img.icons8.com/ios/100/ffffff/align-left.png");
   background-repeat: no-repeat;
   background-size: 200px;
   background-position-x: center;

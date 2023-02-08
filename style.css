@@ -182,16 +182,44 @@ body {
   background-color: #232ed1;
 }
 
-@media only screen and (max-width: 600px) {
+h1 {
+  position: relative;
+}
+h1::after {
+  position: absolute;
+  left: 0;
+  top: 85%;
+  content: "Made by Shree rangaraju S";
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 680px) {
   .navbar {
     font-size: 20px;
+    line-height: 30px;
   }
   .themeBtn {
     width: 30px;
     height: 30px;
   }
+  h1::after {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 20px;
+  }
+
   .logo-image {
     width: 40px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  h1::after {
+    top: 80%;
   }
 }
 

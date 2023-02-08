@@ -222,15 +222,18 @@ h1::after {
     top: 80%;
   }
 }
+@media only screen and (max-width: 430px) {
+  .themeBtn {
+    width: 20px;
+    height: 20px;
+  }
+}
 
 @media only screen and (max-width: 350px) {
   .navbar {
     font-size: 15px;
   }
-  .themeBtn {
-    width: 20px;
-    height: 20px;
-  }
+
   .logo-image {
     width: 30px;
   }
